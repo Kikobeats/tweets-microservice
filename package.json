@@ -48,12 +48,13 @@
   "scripts": {
     "clean": "rm -rf node_modules",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "dev": "svr",
     "lint": "standard-markdown && standard",
     "precommit": "lint-staged",
     "pretest": "npm run lint",
     "pretty": "prettier-standard index.js {core,test,bin}/**/*.js --single-quote",
-    "test": "nyc mocha",
-    "dev": "svr"
+    "start": "node src/server.js",
+    "test": "nyc mocha"
   },
   "license": "MIT",
   "lint-staged": {
