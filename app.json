@@ -1,0 +1,11 @@
+{
+  "name": "tweets-microservice",
+  "description": "Twitter timeline fetcher as microservice.",
+  "repository": "https://github.com/Kikobeats/tweets-microservice",
+  "keywords": [
+    "microservice",
+    "twitter",
+    "tweets",
+    "timeline"
+  ],
+}

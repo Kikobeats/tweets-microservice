@@ -1,0 +1,70 @@
+{
+  "name": "tweets-microservice",
+  "description": "Twitter timeline fetcher as microservice.",
+  "homepage": "https://documentup.com/Kikobeats/tweets-microservice",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://kikobeats.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/tweets-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/tweets-microservice/issues"
+  },
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "compression": "~1.7.1",
+    "cors": "~2.8.4",
+    "express": "~4.16.2",
+    "express-status-monitor": "~1.0.1",
+    "fetch-timeline": "~1.1.4",
+    "get-stream": "~3.0.0",
+    "helmet": "~3.9.0",
+    "jsendp": "~2.0.0",
+    "morgan": "~1.9.0",
+    "query-types": "~0.1.4"
+  },
+  "devDependencies": {
+    "coveralls": "latest",
+    "git-dirty": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "prettier-standard": "latest",
+    "should": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard-markdown && standard",
+    "precommit": "lint-staged",
+    "pretest": "npm run lint",
+    "pretty": "prettier-standard index.js {core,test,bin}/**/*.js --single-quote",
+    "test": "nyc mocha",
+    "dev": "svr"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "prettier-standard",
+      "git add"
+    ]
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
