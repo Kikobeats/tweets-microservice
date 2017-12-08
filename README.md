@@ -14,6 +14,8 @@
 
 ## Related
 
+- [twitrss.me](https://twitrss.me) – Get your twitter user feed as RSS.
+- [Twitter RSS Feed Generator](https://publicate.it/twitter-rss-feed-generator/) – Create A Twitter RSS Feed.
 - [fetch-timeline](https://github.com/Kikobeats/fetch-timeline) - Fetch Twitter user timeline using a readable stream.
 - [fetch-timeline-cli](https://github.com/Kikobeats/fetch-timeline-cli) – Fetch the timeline of a Twitter user from your terminal.
 
