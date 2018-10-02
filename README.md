@@ -3,7 +3,6 @@
 [![Build Status](https://img.shields.io/travis/Kikobeats/tweets-microservice/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/tweets-microservice)
 [![Dependency status](https://img.shields.io/david/Kikobeats/tweets-microservice.svg?style=flat-square)](https://david-dm.org/Kikobeats/tweets-microservice)
 [![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/tweets-microservice.svg?style=flat-square)](https://david-dm.org/Kikobeats/tweets-microservice#info=devDependencies)
-[![NPM Status](https://img.shields.io/npm/dm/tweets-microservice.svg?style=flat-square)](https://www.npmjs.org/package/tweets-microservice)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
