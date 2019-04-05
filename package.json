@@ -24,7 +24,7 @@
     "express": "~4.16.2",
     "express-status-monitor": "~1.2.0",
     "fetch-timeline": "~1.1.4",
-    "get-stream": "~5.0.0",
+    "get-stream": "~5.1.0",
     "helmet": "~3.16.0",
     "jsendp": "~2.1.0",
     "morgan": "~1.9.0",
